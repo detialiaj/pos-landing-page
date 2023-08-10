@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+.terms-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto 8rem auto;
+  padding: var(--page-padding);
+  flex-wrap: wrap;
+}
+.sidebar-heading {
+ 
+  line-height: 32px;
+  color: var(--primary-color);
+  margin: 1rem 28px;
+  padding: 10px;
+}
+.terms-header {
+  line-height: 40px;
+  color: var(--primary-color);
+  margin: 1rem 32px;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+ 
+}
+.terms-list {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 6px;
+}
+.terms-list p {
+  font-family: 'Inconsolata', monospace;
+}
+.terms-list h2 {
+  font-family: 'Inconsolata', monospace;
+}
+
+.active {
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.sidebar-links a { 
+  color: black;
+  padding: 3px;
+}
+.sidebar-links ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .terms-wrapper {
+    justify-content: center;
+  }
+  .sidebar-links {
+    width: 100%;
+  }
+  .terms-list {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar-links {
+    width: 25%;
+  }
+  .terms-list {
+    width: 70%;
+  }
+  .terms-wrapper {
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .sidebar-links {
+    position: sticky;
+    top: 3rem;
+    right: 0;
+    z-index: 2;
+    height: 100%;
+    overflow-y: auto;
+  }
+}

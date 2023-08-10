@@ -1,0 +1,46 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
+    "title": "Pos.",
+    "titleTemplate": "Pos.",
+    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "author": "Konstantin Münster",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "social": {
+      "behance": "",
+      "github": "",
+      "medium": "",
+      "linkedin": "",
+      "mail": ""
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Pos." },
+    "navigation": {
+      "header": [
+        { "label": "Pricing", "url": "#pricing" },
+        { "label": "Features", "url": "#features" },
+        { "label": "Support", "url": "https://posal.tawk.help/" },
+        { "label": "Contact", "url": "#contact" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Login",
+        "url": "https://pos.al/login"
+      },
+      "footer": [
+        { "label": "Home", "url": "/" },
+        { "label": "Terms", "url": "/terms" },
+        { "label": "About", "url": "/about" },
+        { "label": "FAQ", "url": "/faq" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

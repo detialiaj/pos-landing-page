@@ -1,0 +1,17 @@
+{
+  "image": {
+    "src": "../../images/pos-pic.jpeg",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "Pos Software Platform",
+  "subtitle": {
+    "prefix": "I do all the updates ",
+    "highlight": "for you",
+    "suffix": "."
+  },
+  "description": "A Software platform with cool features",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": false
+  }
+}
